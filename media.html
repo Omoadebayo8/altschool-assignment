@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        /* Basic Reset */
+        body, h1, p, img, audio, video {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+            max-width: 800px;
+        }
+
+        picture {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .audio, .video {
+            margin: 20px 0;
+        }
+
+        audio, video {
+            display: block;
+            max-width: 100%;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* Responsive Design */
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px;
+                margin: 0 auto;
+            }
+        }
+
+@media (min-width: 480px) {
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+
+<body>
+    <h1>About Me</h1>
+    <p>Hello, my name is Adebayo Abiola. I am
+        passionate about technology and software engineering most importantly
+        cloud developmemt. I am passionate about enhancing my skills and
+        knowledge in the field of engineering.</p>
+    <picture>
+        <source media="(min-width:1200px)" srcset="images/large.jpg">
+        <source media="(min-width:768px)" srcset="images/medium.jpg">
+        <source media="(min-width:480px)" srcset="images/small.jpg">
+        <img src="../assignment/Image/naturre.jpeg" alt="">
+    </picture>
+    <section>
+        <div class="audio container">
+            <audio controls>
+                <source src="../assignment/Image/Nasboi-Umbrella-Ft-Wande-Coal-(JustNaija.com).mp3"
+                    type="audio/mpeg">
+
+            </audio>
+        </div>
+
+    </section>
+    <section>
+        <div class="video container">
+            <video height="400" width="800"controls>
+                <source src="../assignment/Image/mixkit-girl-dancing-happily-in-a-field-of-flowers-4702-hd-ready.mp4" type="video/mp4">
+                    
+            </video>
+        </div>
+
+    </section>
+    <!-- Scroll to Top link -->
+    <footer>
+        <a href="#top" id="scroll-to-top">Back to Top</a>
+      </footer>
+
+</html>
