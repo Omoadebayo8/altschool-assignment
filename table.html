@@ -1,123 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool Africa Courses</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
 
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        margin-bottom: 20px;
+      }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
 
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
+      nav ul li {
+        margin: 0 15px;
+      }
 
-        th {
-            background-color: #f4f4f4;
-            color: #333;
-        }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
 
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
 
-        li {
-            margin-bottom: 5px;
-        }
-        /* Footer Styling */
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            margin-top: 20px;
-        }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
 
-        footer a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #333;
+        color: #fff;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
-<header>
-    <nav>
+  </head>
+
+  <body>
+    <header>
+      <nav>
         <ul>
-            <li><a href="../assignment/form.html">About Me</a></li>
-            <li><a href="../assignment/media.html">List of Courses</a></li>
-    <li><a href="../assignment/table.html">Form</a></li>
-        
-</ul>
-    </nav>
-</header>
-<body>
+          <li><a href="../assignment/index.html">About Me</a></li>
+          <li><a href="../assignment/form.html">Form</a></li>
+          <li><a href="../assignment/media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <h1>Altschool Africa Courses</h1>
     <table>
-        <tr>
-            <th>Schools</th>
-            <th>Courses</th>
-        </tr>
-        <tr>
-            <td>School of Engineering (SOE)</td>
-            <td>
-                <ul>
-                    <li>Frontend Engineering</li>
-                    <li>Backend Engineering</li>
-                    <li>Cloud Engineering</li>
-                    <li>Cybersecurity</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>School of Product (SOP)</td>
-            <td>
-                <ul>
-                    <li>Product Design</li>
-                    <li>Marketing</li>
-                    <li>Management</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>School of Data (SOD)</td>
-                <td>
-                    <ul>
-                        <li>Data Analysis</li>
-                        <li>Data Science</li>
-                        <li>Data Engineering</li>
-                    </ul>
-                </td>
-        </tr>
+      <tr>
+        <th>Schools</th>
+        <th>Courses</th>
+      </tr>
+      <tr>
+        <td>School of Engineering (SOE)</td>
+        <td>
+          <ul>
+            <li>Frontend Engineering</li>
+            <li>Backend Engineering</li>
+            <li>Cloud Engineering</li>
+            <li>Cybersecurity</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>School of Product (SOP)</td>
+        <td>
+          <ul>
+            <li>Product Design</li>
+            <li>Marketing</li>
+            <li>Management</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>School of Data (SOD)</td>
+        <td>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Data Science</li>
+            <li>Data Engineering</li>
+          </ul>
+        </td>
+      </tr>
     </table>
-     <!-- Scroll to Top link -->
-     <footer>
-        <a href="#top" id="scroll-to-top">Back to Top</a>
-      </footer>
-    
-</body>
+
+    <!-- Scroll to Top link -->
+    <footer>
+      <a href="#top" id="scroll-to-top">Back to Top</a>
+    </footer>
+  </body>
 </html>
